@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # setting
-browser_cmd = 'firefox'
+browser_cmd = 'google-chrome'
 clipboard_cmd = 'xclip'
 
 require 'net/http'
@@ -34,8 +34,8 @@ File.delete(tmpfile)
 # upload
 boundary = '----BOUNDARYBOUNDARY----'
 
-HOST = 'gyazo.com'
-CGI = '/upload.cgi'
+HOST = 'img.roflol.in'
+CGI = '/upload'
 UA   = 'Gyazo/1.0'
 
 data = <<EOF
