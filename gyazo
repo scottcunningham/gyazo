@@ -34,7 +34,7 @@ File.delete(tmpfile)
 # upload
 boundary = '----BOUNDARYBOUNDARY----'
 
-HOST = 'img.roflol.in'
+HOST = 'img.roflol.pw'
 CGI = '/upload'
 UA   = 'Gyazo/1.0'
 
